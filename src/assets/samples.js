@@ -1,7 +1,7 @@
 import EasyWear from "./Images/Easy-wear.jpg";
 import Palm from "./Images/Palm-slippers.jpg";
 import Hshape from "./Images/H-shape.jpg";
-import Flipflop from "./Images/Flip-flop.jpg";
+import Flipflop from "./Images/Flip-Flop.jpg";
 import Xshape from "./Images/X-shape.jpg";
 import Hemms from "./Images/Hemms.jpg";
 
