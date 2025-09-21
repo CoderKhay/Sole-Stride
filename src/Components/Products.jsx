@@ -12,10 +12,10 @@ const Products = () => {
   ));
 
   return (
-    <div className="cards-container">
-      <h3>Featured Products</h3>
-      {craftedShoes}
-    </div>
+    <>
+      <h3 className="featured-products-title">Featured Products</h3>
+      <div className="cards-container">{craftedShoes}</div>
+    </>
   );
 };
 
