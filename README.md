@@ -27,10 +27,6 @@ SoleStride is a portfolio and business website for a shoemaking and repair brand
 - **Responsive Design:** Looks great on all devices.
 - **Modern UI:** Clean, elegant, and accessible interface.
 
-## Screenshots
-
-> Add screenshots of your app here (e.g., homepage, products, contact section).
-
 ## Tech Stack
 
 - **Frontend:** React 19, Vite
