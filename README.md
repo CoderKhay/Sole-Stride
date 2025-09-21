@@ -1,12 +1,76 @@
-# React + Vite
+# SoleStride
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive React web application for showcasing handcrafted footwear, custom shoe design, and repair services.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Available Scripts](#available-scripts)
+- [Customization](#customization)
+- [Contact](#contact)
 
-## Expanding the ESLint configuration
+## Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+SoleStride is a portfolio and business website for a shoemaking and repair brand. It highlights the brand's craftsmanship, featured products, customer reviews, and contact information, all wrapped in a visually appealing and user-friendly interface.
+
+## Features
+
+- **Hero Section:** Eye-catching hero image and animated typewriter introduction.
+- **Featured Products:** Dynamic product cards displaying images, names, and descriptions of various footwear styles.
+- **Customer Reviews:** Real testimonials from satisfied customers.
+- **Contact Section:** Business hours, phone, and email for easy communication.
+- **Responsive Design:** Looks great on all devices.
+- **Modern UI:** Clean, elegant, and accessible interface.
+
+## Screenshots
+
+> Add screenshots of your app here (e.g., homepage, products, contact section).
+
+## Tech Stack
+
+- **Frontend:** React 19, Vite
+- **Styling:** Custom CSS
+- **Animation:** [typewriter-effect](https://www.npmjs.com/package/typewriter-effect)
+- **Linting:** ESLint
+
+## Project Structure
+
+```
+Sol-Stride/
+├── public/
+├── src/
+│   ├── assets/
+│   │   ├── Images/           # Product and hero images
+│   │   └── samples.js        # Product data
+│   ├── Components/
+│   │   ├── Header.jsx
+│   │   ├── Main.jsx
+│   │   ├── Products.jsx
+│   │   ├── Image-cards.jsx
+│   │   ├── Reviews.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── README.md
+```
+
+## Contact
+
+For business inquiries or support:
+
+- **Phone:** +234 8130103918
+- **Email:** olanrewajumariam162@gmail.com
+- **Location:** Akala Expressway, Ibadan
+
+---
+
+© 2024 SoleStride. All rights reserved.
