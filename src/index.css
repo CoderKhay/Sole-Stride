@@ -6,10 +6,11 @@ html {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+  font-family: sans-serif;
 }
 
 body {
-  background-color: rgb(8, 8, 39);
+  background-color: #1b3c53;
 }
 
 /* Header Styles */
@@ -19,7 +20,7 @@ body {
   top: 0;
   width: 100%;
   padding: 5px;
-  background-color: rgb(20, 19, 19);
+  background-color: #456882;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
   height: 3.5rem;
 }
@@ -35,16 +36,14 @@ body {
 .left-content-container img {
   border: 1px solid #fff;
   border-radius: 50%;
-  width: 50%;
-  height: 70%;
+  width: 100%;
+  height: 80%;
   object-fit: center;
 }
 
 .left-content-container h3 {
   color: #fff;
-  /*  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
-  font-family: "Great Vibes", cursive;
+  font-family: sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -63,7 +62,7 @@ main {
   align-items: center;
   height: 100vh;
   gap: 30px;
-  color: #f5e0e0;
+  color: #fff;
   font-size: 1.5rem;
   padding: 20px;
   margin-top: 10px;
@@ -96,10 +95,9 @@ main {
   font-weight: 100;
   font-style: oblique;
   text-align: center;
-  font-size: medium;
+  font-size: small;
   letter-spacing: 0.05rem;
   line-height: 1.5em;
-  color: antiquewhite;
 }
 
 .explore-button {
@@ -113,8 +111,6 @@ main {
 
 .explore-button:hover {
   transform: scale(1.07);
-  background-color: burlywood;
-  color: #000;
   transition: all 0.3s ease-in-out;
 }
 
@@ -165,7 +161,7 @@ main {
   flex-direction: column;
   gap: 20px;
   width: 20rem;
-  height: 27.2rem;
+  height: 30rem;
   background-color: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
@@ -173,9 +169,12 @@ main {
 }
 
 .shoe-image {
-  margin-top: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: contain;
+  display: block;
   width: 100%;
-  height: 17rem;
+  aspect-ratio: 1/1;
 }
 
 .shoe-name {
@@ -244,7 +243,7 @@ main {
 .customer-review {
   margin-top: 10px;
   line-height: 1.5;
-  color: #f29898;
+  color: lemonchiffon;
 }
 
 /* Contact styles */

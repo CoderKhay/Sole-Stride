@@ -14,7 +14,7 @@ const Main = () => {
             className="typewriter-text"
             options={{
               strings: [
-                "A place where exceptional craftsmanship...",
+                "A place where craftsmanship...",
                 "meets timeless design.",
               ],
               autoStart: true,

@@ -1,7 +1,7 @@
 const Imagecards = ({ img, name, description }) => {
   return (
     <div className="image-card">
-      <img className="shoe-image" src={img} alt={name} />
+      <img className="shoe-image" src={img} alt={name} loading="lazy" />
       <p className="shoe-name">{name}</p>
       <p className="shoe-description">{description}</p>
       <button>Learn More</button>
