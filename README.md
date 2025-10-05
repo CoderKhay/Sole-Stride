@@ -18,7 +18,7 @@ A modern, responsive React web application for showcasing handcrafted footwear, 
 SoleStride is a portfolio and business website for a shoemaking and repair brand. It highlights the brand's craftsmanship, featured products, customer reviews, and contact information, all wrapped in a visually appealing and user-friendly interface.
 
 ## Project Link
-- https://solstride-mloud.netlify.app
+- https://solestride-mloud.netlify.app
 
 
 ## Features
