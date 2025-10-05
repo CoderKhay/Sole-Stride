@@ -6,7 +6,6 @@ A modern, responsive React web application for showcasing handcrafted footwear, 
 
 - [Overview](#overview)
 - [Features](#features)
-- [Screenshots](#screenshots)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
